@@ -1,0 +1,61 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "clientFramework": "angularX",
+    "serverPort": "8080",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": false,
+    "withAdminUi": true,
+    "baseName": "store",
+    "buildTool": "maven",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en"],
+    "messageBroker": false,
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "testFrameworks": ["protractor"],
+    "websocket": false,
+    "enableGradleEnterprise": false,
+    "gradleEnterpriseHost": "",
+    "applicationType": "gateway",
+    "packageName": "com.jhipster.demo.store",
+    "packageFolder": "com/jhipster/demo/store",
+    "jhipsterVersion": "7.4.0",
+    "clientPackageManager": "npm",
+    "dtoSuffix": "DTO",
+    "entitySuffix": "",
+    "reactive": true,
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "applicationIndex": 0,
+    "applications": {
+      "invoice": {
+        "serverPort": "8081",
+        "applicationIndex": 1
+      },
+      "notification": {
+        "serverPort": "8082",
+        "applicationIndex": 2
+      }
+    },
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "blueprints": [],
+    "otherModules": [],
+    "pages": [],
+    "nativeLanguage": "en",
+    "creationTimestamp": 1638175240385,
+    "monorepository": true,
+    "skipCommitHook": true,
+    "jwtSecretKey": "MThmMjBlMzVhZDQ4NjM4YjIzOTgzODIyNmM1YTk0ODE2ODg2NzBhNjA0NmMwZDYxMGE2MDQ2YjY3MDVkZDQ3NGMzYzY1Yjc2YWFkZmQyNmFiMjUxMDZlOGNhODU5MTkwMDZmN2UzY2NhZGRmMWViOGJiNjcyYWQyYzhiZmFiYTc=",
+    "devServerPort": 4200,
+    "entities": ["OrderItem", "Customer", "Notification", "ProductCategory", "Product", "ProductOrder", "Invoice", "Shipment"],
+    "lastLiquibaseTimestamp": 1638175720000
+  }
+}
